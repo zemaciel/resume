@@ -17,6 +17,11 @@
     background-color: #525252;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+
 /*------------------------- Special Paddings/margins/text */
 
 h1,
@@ -36,14 +41,37 @@ h4 {
     color: #fafafa;
     }
 
-.inline-block {
-    display: inline-block;
+    .inline-block {
+        display: inline-block;
+    }
+
+
+    .row-table {
+        display: table;
+    }
+
+    .section-column {
+        display: table-cell;
+        padding: 0 30px 30px;
+        float: none;
+    }
+
+.section-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
+
 
 /*------------------------- HEADING */
 
 header {
     margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
